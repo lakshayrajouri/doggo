@@ -25,14 +25,15 @@ p {
   color: #8f8f8f;
 }
 
+/********************title********************/
+
 #title {
   background-color: #ff4c68;
   color: white;
 }
 
-/***************************CLASS TAG********************************/
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 5%;
 }
 
 .btn-dark {
@@ -42,6 +43,15 @@ p {
 .btn-outline-light {
   margin: 50px 20px 50px 0;
 }
+
+.Title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right:25%;
+}
+
+/******************** navbar ********************/
 
 .navbar-brand {
   font-family: ubuntu;
@@ -62,14 +72,12 @@ p {
   font-weight: lighter;
 }
 
-.Title-img {
-  transform: rotate(25deg);
-  width: 60%;
-}
-
-/* feature-box */
+/********************* feature-box*********************/
 #features {
   padding: 7% 15%;
+  background-color: white;
+  position:relative;
+  z-index: 1;
 }
 
 .feature-box {
@@ -86,7 +94,7 @@ p {
   color: #ff4c68;
 }
 
-/* testimonal section */
+/********************* testimonal section *********************/
 #testimonials {
   text-align: center;
   background-color: #ef8172;
@@ -111,4 +119,16 @@ p {
 .press-logo {
   width: 10%;
   margin: 20px 20px 50px;
+}
+
+
+/********************* pricing section *********************/
+
+#pricing {
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding:3% 2%;
 }
