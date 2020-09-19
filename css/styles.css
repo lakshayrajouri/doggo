@@ -132,3 +132,45 @@ p {
 .pricing-column {
   padding:3% 2%;
 }
+
+/*********************call to action section *********************/
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  color:#fff;
+}
+
+.cta-button {
+  margin-bottom: 70px;
+}
+
+/*********************credits section *********************/
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
+
+/*********************media section *********************/
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .Title-img {
+    position:static;
+    transform: rotate(0);
+  }
+}
